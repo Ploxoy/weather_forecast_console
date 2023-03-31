@@ -1,6 +1,6 @@
 import requests
 
-url_template = 'https://wttr.in/{}'
+URL_TEMPLATE = 'https://wttr.in/{}'
 params = {
     'n':'',  # narrow version (only day and night)
     'T':'',  # switch terminal sequences off (no colors)
