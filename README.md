@@ -15,7 +15,7 @@ To use this code, simply run the script in a Python environment such as IDLE or 
 >python weather.py
 ```
 
-The output should be the weather forecast for three default cities: London, Sheremetjevo and Cherepots in Russian language.
+The output should display the weather forecast for three default cities in Russian language: London, Sheremetyevo, and Cherepovets.
 ```
 Лондон
 
@@ -141,7 +141,8 @@ The output should be the weather forecast for three default cities: London, Sher
 
 You can modify the cities list to retrieve weather data for other cities. You can also modify the PARAMS dictionary to change the options used when making requests to wttr.in. The available options are described in the code comments or you can try to use other keys according to wttr.in documentation [wwwr.in help ](https://wttr.in/:help) 
 
-This module provides a function `get_forecast` that takes in two parameters - `params` and `city`,
+## `get_forecast` function 
+This module also provides a function `get_forecast` that takes in two parameters - `params` and `city`,
 and returns a string containing the weather forecast for the specified city using the parameters
 defined in `params`.
 
