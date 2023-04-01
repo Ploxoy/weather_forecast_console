@@ -139,7 +139,7 @@ The output should be the weather forecast for three default cities: London, Sher
 ```
 
 
-You can modify the cities list to retrieve weather data for other cities. You can also modify the PARAMS dictionary to change the options used when making requests to wttr.in. The available options are described in the code comments.
+You can modify the cities list to retrieve weather data for other cities. You can also modify the PARAMS dictionary to change the options used when making requests to wttr.in. The available options are described in the code comments or you can try to use other keys accordig to wttr.in documentation [wwwr.in help ](https://wttr.in/:help) 
 
 This module provides a function `get_forecast` that takes in two parameters - `params` and `city`,
 and returns a string containing the weather forecast for the specified city using the parameters
